@@ -1,0 +1,369 @@
+.theme-breeze {
+
+  --theme-color-primary: #15249c;
+  --theme-color-complimentary: #6173f7;
+
+  --theme-background: #dbceea linear-gradient(19deg, #dcedf1 0%, #dbceea 100%);
+
+  --theme-page: #f2f3f9;
+  --theme-page-text: #0e1340;
+  --theme-page-text-light: #9ea7bc;
+  --theme-page-instructions-text: #3b4559;
+  --theme-page-instructions-background: rgba(200,200,200,0.4);
+  --theme-modal: #ffffff;
+
+  --theme-intro-gradient-1: rgba(255,255,255,0);
+  --theme-intro-gradient-2: rgba(255,255,255,0.95);
+
+  --theme-header-text: #0e1340;
+  --theme-caption-text: #000;
+  --theme-caption-read: #8795a1;
+  --theme-announcements-gradient-1: rgba(255,255,255,0);
+  --theme-announcements-gradient-2: rgba(255,255,255,0.95);
+
+  --theme-line-separator: #dae1e7;
+  --theme-wallet-overview-border: #dae1e7;
+
+  --theme-table-row-hover: #f8f9fd;
+  --theme-transaction-sent: #fef4f5;
+  --theme-transaction-sent-arrow: #e51317;
+  --theme-transaction-received: #e3fcec;
+  --theme-transaction-received-arrow: #2db761;
+  --theme-send-circle-second-signature: #6c5494;
+  --theme-send-circle-second-signature-text: #3b2d54;
+  --theme-send-circle-register-delegate: #d24562;
+  --theme-send-circle-register-delegate-text: #ffffff;
+  --theme-send-circle-vote: #e393a6;
+  --theme-send-circle-vote-text: #954458;
+  --theme-transaction-detail-gradient1: #1f2554;
+  --theme-transaction-detail-gradient2: #0e1340;
+  --theme-transaction-detail-highlight: #3b4071;
+  --theme-transaction-detail-arrow: #4d536c;
+
+  --theme-wallet-new-selected: #282a2b;
+  --theme-wallet-new-unselected: #9ea7bc;
+  --theme-wallet-sign-verify-message-text: #c5cfde;
+  --theme-wallet-grid-shadow: 0 15px 20px rgba(124,138,192,0.12);
+
+  --theme-feature: white;
+  --theme-feature-item-text: #bbbed2;
+  --theme-feature-item-hover: #fafafd;
+  --theme-feature-item-alternative: hsla(233, 43%, 96%, 1);
+  --theme-feature-item-alternative-text: #8b9bab;
+  --theme-feature-item-hover-text: #535773;
+  --theme-feature-item-selected: #fafafd;
+  --theme-feature-item-selected-text: var(--theme-color-primary);
+  --theme-feature-item-indicator: var(--theme-color-primary);
+
+  --theme-secondary-feature: var(--theme-feature-item-selected);
+
+  --theme-button-special-choice: var(--theme-button);
+  --theme-button-special-choice--text: var(--theme-color-primary);
+
+  --theme-heading-background: #343956;
+  --theme-heading-text: #c0cddf;
+
+  --theme-chart-background: #ffffff;
+  --theme-chart-price: #3b4559;
+
+  --theme-button: #eff0fd;
+  --theme-button-active: #c5dbed;
+  --theme-button-text: var(--theme-color-primary);
+  --theme-button-light: #f1f5f8;
+  --theme-button-light-text: #8795a1;
+  --theme-button-inner-box: #e7e8f7;
+  --theme-button-inner-box-hover: #0f1a71;
+  --theme-action-button: #eff0f6;
+  --theme-action-button-text: #8d93ad;
+  --theme-action-button-text-hover: #789fba;
+  --theme-option-button: #3d456d;
+  --theme-option-button-hover: #cc5e60;
+  --theme-option-button-text: var(--theme-color-primary);
+  --theme-switch-button: #e0f0fd;
+  --theme-option-heading-button: #30345d;
+  --theme-option-heading-button-hover: var(--theme-color-complimentary);
+  --theme-option-heading-button-text: #9397c3;
+  --theme-input-toggle-choice: #f1f5f8;
+  --theme-input-toggle-choice-text: #606f7b;
+  --theme-input-field-border: #b9c2d7;
+  --theme-modal-footer-button: #e7d28e;
+  --theme-modal-footer-button-text: #b3a36f;
+
+  --theme-explanation-background: #e2edf8;
+  --theme-explanation-text: #7f95ab;
+
+  --theme-settings: white;
+  --theme-settings-hover: #f0f1f8;
+  --theme-settings-sub: #2d3747; /* NOTE: not used on light theme */
+  --theme-settings-button: #2d3747; /* NOTE: not used on light theme */
+  --theme-settings-heading: #2d3747;
+  --theme-settings-border: #e5e7ef;
+  --theme-settings-text: #8a91b8;
+  --theme-settings-text-hover: #8a91b8;
+  --theme-settings-switch: #f1f4f7;
+  --theme-settings-control-title: #2d3747;
+  --theme-settings-border-radius: .5rem;
+
+  --theme-voting-banner-background: #e2edf8;
+  --theme-voting-banner-text: #7f95ab;
+  --theme-voting-banner-button: #cfddec;
+  --theme-voting-banner-button-hover: #b1c9e2;
+  --theme-voting-banner-button-text: #90a9c6;
+  --theme-voting-banner-button-text-hover: #6785a9;
+
+  --theme-fee-gradient-start: var(--theme-modal);
+  --theme-fee-gradient-end: rgba(0,124,255,0.20);
+  --theme-fee-handler-outside: var(--theme-button-text);
+  --theme-fee-handler-inside: var(--theme-modal);
+  --theme-fee-range-track: var(--theme-page-text-light);
+  --theme-fee-range-track-active: var(--theme-button-text);
+  --theme-fee-range-shadow: rgba(9, 100, 228, 0.34);
+
+  --theme-sidebar-menu-background: #fff;
+  --theme-sidebar-menu-text--active: var(--theme-color-primary);
+
+}
+
+.theme-breeze a,
+.theme-breeze a:hover {
+  color: var(--theme-color-primary);
+}
+
+.theme-breeze h1,
+.theme-breeze h2,
+.theme-breeze h3,
+.theme-breeze h4 {
+  color: var(--theme-header-text) !important;
+}
+
+.theme-breeze .text-blue {
+  color: var(--theme-color-complimentary);
+}
+
+.theme-breeze .bg-blue {
+  background-color: var(--theme-color-complimentary);
+}
+
+/* Dashboard */
+
+.theme-breeze .bg-theme-chart-background {
+  border-bottom: 1px solid var(--theme-settings-border);
+}
+
+.theme-breeze .Dashboard__wallets > div:first-child {
+  margin-top: 0;
+}
+
+.theme-breeze .Dashboard__wallets__button {
+  margin: 0;
+}
+
+.theme-breeze .Dashboard__wallets__button > a {
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.theme-breeze .Dashboard__wallets__button:first-child {
+  border-right-width: 1px;
+}
+
+
+.theme-breeze .App__main {
+  background: var(--theme-background) !important;
+}
+
+.theme-breeze .App__container {
+  background-color: var(--theme-page);
+  border-radius: var(--theme-settings-border-radius);
+  box-shadow: 0 22px 40px rgba(10, 15, 60, 0.12);
+  margin: 1rem 0 !important;
+}
+
+.theme-breeze .App__page {
+  padding: 1.5rem;
+}
+
+.theme-breeze .App__page > .bg-theme-feature,
+.theme-breeze .App__page > [class*="__heading"],
+.theme-breeze .App__page > .PluginManager__wrapper {
+  border: 1px solid var(--theme-settings-border);
+}
+
+.theme-breeze .App__page > .PluginManager__banner {
+  border-width: 1px 1px 0;
+  border-color: var(--theme-settings-border);
+}
+
+.theme-breeze .WalletDetails > .bg-theme-feature {
+  border-width: 0 0 1px 1px;
+  border-color: var(--theme-settings-border);
+}
+
+.theme-breeze .AppSidemenu--vertical {
+  margin: 0;
+  border-right: 1px solid var(--theme-settings-border);
+}
+
+.theme-breeze .AppSidemenu--horizontal {
+  height: auto;
+}
+
+.theme-breeze .AppSidemenu--horizontal .AppSidemenu__item {
+  height: 100%;
+}
+
+.theme-breeze .AppSidemenu--vertical .AppSidemenu__container__scrollable {
+  border-radius: 0 0 0 var(--theme-settings-border-radius);
+}
+
+.theme-breeze .AppSidemenu__logo {
+  background-color: var(--theme-color-primary) !important;
+  border-radius: 0;
+  margin: 0;
+}
+
+.theme-breeze .AppSidemenu--vertical .AppSidemenu__logo {
+  border-radius: var(--theme-settings-border-radius) 0 0 0;
+}
+
+.theme-breeze .MenuNavigationItem {
+  transition: background-color .3s ease, color .3s ease;
+}
+
+.theme-breeze .AppSidemenu__item.MenuNavigationItem--active,
+.theme-breeze .AppSidemenu__item.MenuNavigationItem--active:hover {
+  color: var(--theme-sidebar-menu-text--active);
+  background-color: var(--theme-feature-item-selected);
+}
+
+.theme-breeze .AppSidemenu__item:not(.MenuNavigationItem--active):hover {
+  background-color: #fff;
+}
+
+.theme-breeze .MenuNavigationItem--active > .MenuNavigationItem__border,
+.theme-breeze .MenuNavigationItem:hover > .MenuNavigationItem__border {
+  height: 100%;
+}
+
+.theme-breeze .MenuNavigationItem:not(.MenuNavigationItem--active):hover > .MenuNavigationItem__border {
+  box-shadow: none;
+}
+
+.theme-breeze .WalletSidebar__wallet.MenuNavigationItem--active > .MenuNavigationItem__border {
+  box-shadow: inset -.15rem 0px 0px 0px var(--theme-feature-item-indicator);
+}
+
+.theme-breeze .text-theme-footer-text {
+  color: #fff;
+}
+
+.theme-breeze .WalletGrid__wallet__name {
+  color: var(--theme-header-text);
+}
+
+/* Button overrides */
+
+.theme-breeze .blue-button:hover,
+.theme-breeze .blue-small-button:hover,
+.theme-breeze .WalletNew__ButtonReload-colorClass:hover,
+.theme-breeze .ContactAll__CreateButton:hover,
+.theme-breeze .PluginManagerButtonInstallSource:hover {
+  background-color: var(--theme-color-primary);
+  box-shadow: 0 5px 15px rgba(21, 36, 156, 0.25);
+}
+
+.theme-breeze .PluginManagerButtonInstallSource:hover .PluginManagerButtonInstallSource__icon,
+.theme-breeze .ContactAll__CreateButton:hover .ContactAll__CreateButton__icon {
+  background-color: var(--theme-button-inner-box-hover) !important;
+}
+
+.theme-breeze .bg-theme-button-special-choice {
+  background-color: var(--theme-button-special-choice);
+  color: var(--theme-button-special-choice--text);
+}
+
+.theme-breeze .MarketChartHeader__button:hover {
+  opacity: 1;
+  background-color: transparent;
+  color: var(--theme-button-special-choice--text);
+}
+
+.theme-breeze .ButtonLayout {
+  color: var(--theme-option-button-text) !important;
+}
+
+
+
+.theme-breeze .bg-theme-settings > a {
+  color: #8795a1;
+}
+
+.theme-breeze .bg-theme-settings > a:hover {
+  color: #fff;
+}
+
+/* Wallet page */
+
+.theme-breeze .WalletButton__create,
+.theme-breeze .WalletButton__export {
+  border-width: 0;
+}
+
+.theme-breeze .WalletGrid {
+  grid-gap: 1rem;
+}
+
+.theme-breeze .WalletGrid__wallet {
+  border: 1px dashed var(--theme-settings-border);
+  border-radius: .5rem;
+}
+
+.theme-breeze .WalletGrid__wallet:hover {
+  transform: none;
+  border-style: solid;
+  border-color: var(--theme-color-primary);
+}
+
+.theme-breeze .WalletGrid__wallet:not(:hover)::after {
+  display: none;
+}
+
+.theme-breeze .WalletGrid__wallet__wrapper {
+  border: 0;
+}
+
+.theme-breeze [class^="WalletButton__"] > a > .rounded-full {
+  transition: background-color .3s ease, color .3s ease;
+}
+
+.theme-breeze [class^="WalletButton__"] > a:hover > .rounded-full {
+  opacity: 1;
+  background-color: var(--theme-color-primary);
+  color: #fff;
+}
+
+
+/* Transaction page */
+
+.theme-breeze .WalletHeading svg rect {
+  fill: var(--theme-transaction-detail-highlight);
+}
+
+
+/* Plugins page */
+
+.theme-breeze .PluginManagerSideMenu__categories li:hover,
+.theme-breeze .PluginManagerSideMenu__categories li.active {
+  border-color: var(--theme-color-complimentary);
+}
+
+
+/* Media queries */
+
+@media (min-width: 768px) {
+
+  .theme-breeze .App__page {
+    max-height: calc(100vh - 3rem);
+  }
+
+}

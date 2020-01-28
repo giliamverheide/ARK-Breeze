@@ -1,0 +1,37 @@
+{
+  "name": "@giliam/ark-breeze",
+  "version": "1.0.0",
+  "description": "Modern Light Desktop Wallet Theme",
+  "main": "src/index.js",
+  "author": "Giliam Verheide",
+  "license": "MIT",
+  "desktop-wallet": {
+    "title": "Breeze Theme",
+    "logo": "https://raw.githubusercontent.com/giliamverheide/ark-breeze/master/logo.png",
+    "categories": [
+      "theme"
+    ],
+    "permissions": [
+      "THEMES"
+    ],
+    "minVersion": "2.6"
+  },
+  "keywords": [
+    "theme",
+    "template",
+    "@arkecosystem",
+    "desktop-wallet",
+    "plugin"
+  ],
+  "contributors": [
+    "Giliam Verheide"
+  ],
+  "bugs": {
+    "url": "https://github.com/giliamverheide/ARK-Breeze/issues"
+  },
+  "homepage": "https://github.com/giliamverheide/ARK-Breeze#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giliamverheide/ARK-Breeze.git"
+  }
+}
