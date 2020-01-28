@@ -1,3 +1,5 @@
+![NPM version: 1.0.0](https://img.shields.io/npm/v/@giliam/ark-breeze) ![License: MIT](https://img.shields.io/npm/l/@giliam/ark-breeze)
+
 # ARK Breeze
 A modern light theme for the [ARK desktop wallet](https://github.com/ArkEcosystem/desktop-wallet).
 
