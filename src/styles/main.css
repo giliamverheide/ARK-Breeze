@@ -345,7 +345,7 @@
 
 /* Transaction page */
 
-.theme-breeze .WalletHeading svg rect {
+.theme-breeze .WalletHeading :not(.Identicon) > svg rect {
   fill: var(--theme-transaction-detail-highlight);
 }
 

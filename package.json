@@ -1,6 +1,6 @@
 {
   "name": "@giliam/ark-breeze",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A modern light theme for the ARK desktop wallet.",
   "main": "src/index.js",
   "author": "Giliam Verheide",
