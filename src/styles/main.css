@@ -124,6 +124,11 @@
 
 }
 
+.theme-breeze {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .theme-breeze a,
 .theme-breeze a:hover {
   color: var(--theme-color-primary);
