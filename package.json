@@ -1,13 +1,19 @@
 {
   "name": "@giliam/ark-breeze",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A modern light theme for the ARK desktop wallet.",
   "main": "src/index.js",
   "author": "Giliam Verheide",
   "license": "MIT",
   "desktop-wallet": {
     "title": "Breeze Theme",
-    "logo": "https://raw.githubusercontent.com/giliamverheide/ark-breeze/master/logo.png",
+    "logo": "https://raw.githubusercontent.com/giliamverheide/ark-breeze/master/images/logo.png",
+    "images": [
+      "https://raw.githubusercontent.com/giliamverheide/ark-breeze/master/images/preview-1.jpg",
+      "https://raw.githubusercontent.com/giliamverheide/ark-breeze/master/images/preview-2.jpg",
+      "https://raw.githubusercontent.com/giliamverheide/ark-breeze/master/images/preview-3.jpg",
+      "https://raw.githubusercontent.com/giliamverheide/ark-breeze/master/images/preview-4.jpg"
+    ],
     "categories": [
       "theme"
     ],
